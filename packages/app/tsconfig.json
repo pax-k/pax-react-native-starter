@@ -1,0 +1,9 @@
+{
+  "extends": "tsconfig/app.json",
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.json"],
+  "references": [
+    {
+      "path": "../ui"
+    }
+  ]
+}
