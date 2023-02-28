@@ -5,13 +5,22 @@
 - the UI team can review UI components using Chromatic/Storybook
 - the whole team can view updates for each of these 3 apps along the development process
 
-## 🔦 About
+## ⚡️ Tech
+- Yarn 
+- TypeScript
+- react-native
+- Expo
+- NextJS
+- Solito
+- Tamagui
+- Storybook
+- Jest, testing-library
+- Turbo
+## 🔥 About & Motivation
 
 This is a monorepo for an Expo + NextJS app ⚡️
 
 While our main objective is to develop a mobile app, now thanks to [Solito](https://solito.dev/) and [Tamagui](https://tamagui.dev/) we can target the web also. Just Tamagui alone brings great value due to its performance and [theme-ui](https://theme-ui.com/) styles, while Solito provides cross-platform navigation.
-
-## 🔥 Motivation
 
 react-native development is a bit tedious compared to web development, requiring testing on different platforms (iOS, Android), different OS versions, and different screen sizes. Even the processes of app building, submission and updating can get complicated without Expo. This is why this repo aims to easen the effort when it comes to native development, while implementing quality checks and CI/CD flows.
 
