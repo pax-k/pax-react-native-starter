@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   extends: ['next', 'custom'],
-  ignorePatterns: ['node_modules', '.next', '.turbo', '.tamagui', 'next.config.js', '.eslintrc.js'],
+  ignorePatterns: ['node_modules', 'dist', '.turbo', 'build', '.eslintrc.js'],
   parserOptions: {
     project: 'tsconfig.json',
     tsconfigRootDir: __dirname,
