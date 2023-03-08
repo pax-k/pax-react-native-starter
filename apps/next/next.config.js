@@ -53,10 +53,6 @@ const plugins = [
 module.exports = function () {
   /** @type {import('next').NextConfig} */
   let config = {
-    i18n: {
-      defaultLocale: 'en',
-      locales: ['en', 'de', 'fr'],
-    },
     typescript: {
       ignoreBuildErrors: true,
     },

@@ -8,7 +8,7 @@
     "react-dom": "^18.2.0",
     "react-native": "0.70.5",
     "react-native-web": "^0.18.12",
-    "tamagui": "^1.5.1",
+    "tamagui": "^1.7.2",
     "ui": "workspace:^"
   },
   "devDependencies": {
