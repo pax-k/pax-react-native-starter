@@ -3,6 +3,8 @@ module.exports = function (api) {
   return {
     presets: [['babel-preset-expo', { jsxRuntime: 'automatic' }]],
     plugins: [
+      // NOTE: `expo-router/babel` is a temporary extension to `babel-preset-expo`.
+      require.resolve('expo-router/babel'),
       'inline-dotenv',
       [
         require.resolve('babel-plugin-module-resolver'),
