@@ -38,3 +38,5 @@ yarn-error.log*
 dist/out-tsc/*
 
 **/.env
+
+.idea
